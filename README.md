@@ -1,2 +1,1 @@
-# YMYW
-Your Maps Your Way (YMYW)
+## YMYW - Your Maps Your Way with Earth Engine
