@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: 'To cite YMYW, use:'
+authors:
+- family-names: "Morton"
+  given-names: "Richard Daniel"
+  orcid: "https://orcid.org/0000-0003-3947-6463"
+- family-names: "Schmucki"
+  given-names: "Reto"
+  orcid: "https://orcid.org/0000-0003-3064-7553"
+title: "YMYW - Your Maps Your Way with Earth Engine"
+version: 1.0.0
+doi: TBC
+date-released: 2023-01-16
+url: TBC
