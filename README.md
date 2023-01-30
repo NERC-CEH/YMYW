@@ -52,20 +52,20 @@ To illustrate the use of YMYW, we provide two examples with digitised training d
 >   - CL9 = Quarry
 >   - CL10 = Urban
 >
-> Step 1. Copy the code in [Example/Zurich.js](https://github.com/NERC-CEH/YMYW/blob/main/Examples/Zurich.js)  
-> Step 2. Paste the Zurich code in the GEE editor.  
-> Step 3. Hover over the code with the mouse and press "convert" in the yellow box to convert the records into training polygons for this example.  
-> Step 4. Copy the YMYW code in [YMYW.js](https://github.com/NERC-CEH/YMYW/blob/main/YMYW.js)   
-> Step 5. Paste the YMYW code below the block entitled **"// ### YMYW Code Below >>>"** (line 33 in GEE editor).   
-> Step 6. Press "Run" (run script) at the top of the GEE editor.   
-> Step 7. On interactive GUI panel that appears on the left hand side, examine that parameter that will be used to select the satellite images, define the year and the time periods to create the composite images.   
-> Step 8. On the GUI panel, press "Show Composites" and select them from the layers menu (top-right side of the map); Examine the 5 seasonal layers.   
-> Step 9. On the GUI panel, press "Classify" to the Random Forest classifier and classify the AOI (blue square). this can take some time (don't worry if you see the message "Page Unresponsive).     
-> Step 10. Once completed, the Land Cover legend will appear on the bottom-righ of your screen and the classification will be rendered. You can select or deselect the the classification from the layers menu.   
-> Step 11. On the GUI menu, you can now explore the "Out of bag error" and the "Variable importance" statistics for the Random Forest model.   
-> Step 12. On the GUI menu, press "Validate classification" to compute the confusion matrix and Omisssion and Comission errors.   
-> Step 13. Examine the outputs (i.e. confusion matrix, etc) from the GEE console (top-right panel, next to the editor).   
-> Step 14. Press "Export classification and more" to export the classification map, the training data and validation data, and more to Google drive or Google cloud. One you pressed the Export button, see "Tasks" tab in the top-right panel (tab should be orange now). Run and follow instruction to launch the export.   
+> 1. Copy the code in [Example/Zurich.js](https://github.com/NERC-CEH/YMYW/blob/main/Examples/Zurich.js)  
+> 2. Paste the Zurich code in the GEE editor.  
+> 3. Hover over the code with the mouse and press "convert" in the yellow box to convert the records into training polygons for this example.  
+> 4. Copy the YMYW code in [YMYW.js](https://github.com/NERC-CEH/YMYW/blob/main/YMYW.js)   
+> 5. Paste the YMYW code below the block entitled **"// ### YMYW Code Below >>>"** (line 33 in GEE editor).   
+> 6. Press "Run" (run script) at the top of the GEE editor.   
+> 7. On interactive GUI panel that appears on the left hand side, examine that parameter that will be used to select the satellite images, define the year and the time periods to create the composite images.   
+> 8. On the GUI panel, press "Show Composites" and select them from the layers menu (top-right side of the map); Examine the 5 seasonal layers.   
+> 9. On the GUI panel, press "Classify" to the Random Forest classifier and classify the AOI (blue square). this can take some time (don't worry if you see the message "Page Unresponsive).     
+> 10. Once completed, the Land Cover legend will appear on the bottom-righ of your screen and the classification will be rendered. You can select or deselect the the classification from the layers menu.   
+> 11. On the GUI menu, you can now explore the "Out of bag error" and the "Variable importance" statistics for the Random Forest model.   
+> 12. On the GUI menu, press "Validate classification" to compute the confusion matrix and Omisssion and Comission errors.   
+> 13. Examine the outputs (i.e. confusion matrix, etc) from the GEE console (top-right panel, next to the editor).   
+> 14. Press "Export classification and more" to export the classification map, the training data and validation data, and more to Google drive or Google cloud. One you pressed the Export button, see "Tasks" tab in the top-right panel (tab should be orange now). Run and follow instruction to launch the export.   
 >   - layers = polygons (KML) draw for to inform the classification;
 >   - trainingPoints = points (KML) used to train the Random Forest classifier;
 >   - validationPoints = points (KML) used to validate the classification (cross-validation);
