@@ -25,7 +25,7 @@ Classification with YMYW is a heuristic, iterative process. Training objects can
 ### Example
 To illustrate the use of YMYW, we provide two examples with digitised training data that produce a land cover map for 1) an area of interest near Zurich (Switzerland) and 2) an area of interest near Lancaster (UK).
 
-> [Example 1. Zurich](https://github.com/NERC-CEH/YMYW/blob/main/YMYW_ZurichExample.js)
+> [Example 1. Zurich](https://github.com/NERC-CEH/YMYW/blob/main/Examples/Zurich.js)
 >
 > This example (link above) present the geometries (Multipolygons) and parameters use to classify the Sentinel-2 images and produce land cover map for the regions around Zurich. The map characterise 10 land cover classes.
 
