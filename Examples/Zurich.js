@@ -1,9 +1,11 @@
 /**
+ * Zurich
  * The following code defines the import variables for the YMYW example 
  * of the Land Cover classification in the region of Zurich (Switzerland).
  * The example contains a polygon of the aoi (Area of Interest) and 
  * training Multipolygons for 10 different land cover classes. To import,
- * move the mouse pointer over the code below to highlight the code (yellow)
+ * this java script into the Google Earth Engine editor and move the 
+ * mouse pointer over the code below to highlight the code (yellow)
  * and press "convert" to import the geometry.
  * 
  * Once you have imported the objects, paste the script YMYW.js under
