@@ -128,7 +128,7 @@ To illustrate the use of YMYW, we provide two examples with digitised training d
 > 
 
 ### Funding
-The development of the YMYW tool was initially funded by UKRI's Latin American Biodiversity Programme through the project [SURPASS2](https://bee-surpass.org/about/) which concerned safeguarding of pollination services. We developed YMYW to enable local ecologists to produce bespoke habitat maps for pollination models and analyses. YMWY receives ongoing support through [SABIOMA](https://sabioma.org) and [UKRI’s National Capability funding](https://www.ukri.org/councils/nerc/guidance-for-applicants/types-of-funding-we-offer/national-capability-funding/).
+The development of the YMYW tool was funded by the UKRI Natural Environment Research Council (NERC), through the Latin American Biodiversity Programme [Grant No. NE/S011870/2]. The [SURPASS2](https://bee-surpass.org/about/) project concerned safeguarding of pollination services in Latin America (Argentina, Brazil and Chile). In that context, we developed YMYW to enable local ecologists to produce bespoke habitat maps for pollination models and analyses. YMWY receives ongoing support through the [SABIOMA](https://sabioma.org) project and [UKRI’s National Capability funding](https://www.ukri.org/councils/nerc/guidance-for-applicants/types-of-funding-we-offer/national-capability-funding/).
 
 ### Credits
 Daniel Morton (DM) developed the first iteration of YMWY and Reto Schmucki (RS) implemented revisions and enhancements. DM and RS will continue to develop and enhance the YMYW distribution. YMYW encapsulates collective ideas and knowledge from past and present UKCEH Land Cover team members, primarily Daniel Morton, Clare Rowland, Chris Marston and Luis Carassco.
