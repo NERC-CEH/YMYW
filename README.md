@@ -9,7 +9,7 @@ Morton, R.D., & Schmucki, R. (2023). YMYW - Your Maps Your Way with Google Earth
 
 ### In a Nutshell
 - Before you start with YMYW, you need to Sign Up and get access to [Google's Earth Engine (GEE)](https://earthengine.google.com/). 
-- In GEE, you can paste the [javaScript of YMYW](https://github.com/NERC-CEH/YMYW/blob/main/YMYW.js) in the GEE editor. You can also access the code directly through this [link](xx).
+- In GEE, you can paste the [JavaScript of YMYW](https://github.com/NERC-CEH/YMYW/blob/main/YMYW.js) in the GEE editor. You can also access the code directly through this [link](xx).
 
 > ### *Your Maps Your Way in 10 steps* 
 > 1. Draw the area of interest (AOI) and specify the period or year of interest.
