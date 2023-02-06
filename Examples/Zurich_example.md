@@ -64,3 +64,5 @@ This example (link above) contains the geometries (multipolygons) and parameters
       - ErrorMatrix = Confusion matrix (CSV) from the cross-validation;
       - classified_aoi = Classified map (GeoTIFF) of the Area of Interest;
       - composite_aoi = Composite image (GeoTIFF) with the bands for each period and the terrain layers (elevation, slope, aspect).
+
+[back to YMYW](https://github.com/NERC-CEH/YMYW/)
