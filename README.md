@@ -12,18 +12,18 @@ Morton, R.D., & Schmucki, R. (2023). YMYW - Your Maps Your Way with Google Earth
 - In GEE, you can paste the [JavaScript of YMYW](https://github.com/NERC-CEH/YMYW/blob/main/YMYW.js) into a new file in the GEE editor. You can also access the code directly on GEE via this [link](xx).
 
 > ### *Your Maps Your Way in 10 steps* 
-> 1. Draw the Area of Interest (AOI) and Press the "Run" button.
+> 1. Draw the Area of Interest (AOI) and press the "Run" button.
 > 2. Select the collection of satellite images to be classified (Sentinel-2 or Landsat).
 > 3. Define the year and the time periods (dates and months) that capture the land cover changes and phenology in the region of interest.
 > 4. Press the "Show composites" button to visualise the composite images; adjust cloud tolerance and time period as needed.
-> 5. Digitise training objects for specific land cover classes, using composite layers, the Google satellite layer or other sources of information. To improve cross-validation, aim to draw many small training ojbects distributed across the AOI.
+> 5. Digitise training objects for specific land cover classes, using composite layers, the Google satellite layer, or other sources of information. To improve cross-validation, aim to draw many small training objects distributed across the AOI.
 > 6. Press the "Classify" button to run a random forest classifier to classify each pixel of the Area of Interest (AOI).
-> 7. Cross-Validate the classification and evaluate its accuracy.
+> 7. Press the "Validate classification" button to cross-Validate the classification and evaluate its accuracy.
 > 8. Digitise additional training objects for misclassified land covers and areas.
 > 9. Repeat steps 6 to 8 until a satisfactory classification is achieved (go back to step 3 if necessary).  
-> 10. Export the results: the land cover map the training dataset, the validation dataset.
+> 10. Press the "Export classification and more" button to export the results: the land cover map the training dataset, the validation dataset. Export appears under the "Task" tab. Press "RUN" and fill the export details to initiate the specific export.  
 
-Classification with YMYW is a heuristic, iterative process. At each iteration, training objects can be added and removed until the classification converges to the optimal result. The training objects are digitised using online image collections as base maps and the user's local knowledge of the area of interest. YMYW uses a supervised machine learning algorithm (Random Forests) that "learns and improves" mainly when its supervisor identifies where it makes mistakes (misclassification). In most cases, and with some practice, YMYW will produce a high-quality land cover/habitat map in a few iterations.
+Classification with YMYW is a heuristic, iterative process. At each iteration, training objects can be added and removed until the classification converges to the optimal result. The training objects are digitised using online image collections as base maps and the user's local knowledge of the area of interest. YMYW uses a supervised machine learning algorithm (Random Forests) that "learns and improves" mainly when its supervisor identifies where it makes mistakes (misclassification). In most cases, and with some practice, YMYW will produce a high-quality land cover/habitat map in a few iterations. See the sequence of [screenshots](https://github.com/NERC-CEH/YMYW/blob/main/Documentation/YMYW_StepsAndScreenshopt.pdf)  
 #
 ## Examples
 To illustrate the use of YMYW, we provide two examples of digitised training data to produce a land cover map for 1) an area of interest near Zurich (Switzerland) and 2) an area of interest around the Leven Estuary near Ulverston (UK).
