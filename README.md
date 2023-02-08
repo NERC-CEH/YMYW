@@ -23,8 +23,10 @@ Morton, R.D., & Schmucki, R. (2023). YMYW - Your Maps Your Way with Google Earth
 > 9. Repeat steps 6 to 8 until a satisfactory classification is achieved (go back to step 3 if necessary).  
 > 10. Press the "Export classification and more" button to export the results: the land cover map the training dataset, the validation dataset. Export appears under the "Task" tab. Press "RUN" and fill the export details to initiate the specific export.  
 
-Classification with YMYW is a heuristic, iterative process. At each iteration, training objects can be added and removed until the classification converges to the optimal result. The training objects are digitised using online image collections as base maps and the user's local knowledge of the area of interest. YMYW uses a supervised machine learning algorithm (Random Forests) that "learns and improves" mainly when its supervisor identifies where it makes mistakes (misclassification). In most cases, and with some practice, YMYW will produce a high-quality land cover/habitat map in a few iterations. See the sequence of [screenshots](https://github.com/NERC-CEH/YMYW/blob/main/Documentation/YourMapsYourWayDoc.pdf)  
-#
+Classification with YMYW is a heuristic, iterative process. At each iteration, training objects can be added and removed until the classification converges to the optimal result. The training objects are digitised using online image collections as base maps and the user's local knowledge of the area of interest. YMYW uses a supervised machine learning algorithm (Random Forests) that "learns and improves" mainly when its supervisor identifies where it makes mistakes (misclassification). In most cases, and with some practice, YMYW will produce a high-quality land cover/habitat map in a few iterations. 
+
+#### See the sequence of [screenshots](https://github.com/NERC-CEH/YMYW/blob/main/Documentation/YourMapsYourWayDoc.pdf) 
+
 ## Examples
 To illustrate the use of YMYW, we provide two examples of digitised training data to produce a land cover map for 1) an area of interest near Zurich (Switzerland) and 2) an area of interest around the Leven Estuary near Ulverston (UK).
 
