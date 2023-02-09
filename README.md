@@ -6,7 +6,7 @@
 YMYW is an interactive Google Earth Engine application. It is designed to allow users with only basic knowledge of satellite imagery and supervised learning techniques to create detailed habitat/land cover maps anywhere in the world with a thematic structure chosen by the user (*Your Maps, Your Way*). The current version of YMYW allows the classification of optical Sentinel-2 and Landsat imagery, but advanced users will find it straightforward to adapt the code to other available image collections. The development of YMYW began during the COVID-19 pandemic (2020-2021). It allowed us to engage and collaborate with local ecologists in South America (Argentina, Brazil and Chile) to create customised habitat maps for pollination modelling and analysis. Throughout the development of YMYW, our goal was to provide an intuitive and user-friendly interface to facilitate collaboration, support local experts and promote knowledge exchange between groups. When using YMYW, users can harness the computing power of Google's Earth Engine and integrate essential local knowledge to create high-quality land cover maps.
 
 ## How to cite this material
-Morton, R.D., & Schmucki, R. (2023). YMYW - Your Maps Your Way with Google Earth Engine (Version 1.0.0) [Computer software].
+Morton, R.D., & Schmucki, R. (2023). YMYW - Your Maps Your Way with Google Earth Engine (Version 1.0.0) [Computer software]. https://doi.org/10.5281/zenodo.7624622
 
 ## In a Nutshell
 - Before you start with YMYW, you need to Sign Up and get access to [Google's Earth Engine (GEE)](https://earthengine.google.com/). 
