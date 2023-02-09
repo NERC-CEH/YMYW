@@ -8,7 +8,7 @@ YMYW is an interactive Google Earth Engine application. It is designed to allow 
 Morton, R.D., & Schmucki, R. (2023). YMYW - Your Maps Your Way with Google Earth Engine (Version 1.0.0) [Computer software].
 
 ## In a Nutshell
-- Before you start with YMYW, you need to Sign Up and get access to [Google's Earth Engine (GEE)](https://earthengine.google.com/). 
+- Before you start with YMYW, you must Sign Up and get access to [Google's Earth Engine (GEE)](https://earthengine.google.com/). 
 - In GEE, you can paste the [JavaScript of YMYW](https://github.com/NERC-CEH/YMYW/blob/main/YMYW.js) into a new file in the GEE editor.
 
 > ### *Your Maps Your Way in 10 steps* 
@@ -21,7 +21,7 @@ Morton, R.D., & Schmucki, R. (2023). YMYW - Your Maps Your Way with Google Earth
 > 7. Press the "Validate classification" button to cross-Validate the classification and evaluate its accuracy.
 > 8. Digitise additional training objects for misclassified land covers and areas.
 > 9. Repeat steps 6 to 8 until a satisfactory classification is achieved (go back to step 3 if necessary).  
-> 10. Press the "Export classification and more" button to export the results: the land cover map the training dataset, the validation dataset. Export appears under the "Task" tab. Press "RUN" and fill the export details to initiate the specific export.  
+> 10. Press the "Export classification and more" button to export the results: the land cover map, the training dataset, and the validation dataset. Export appears under the "Task" tab. Press "RUN" and fill in the export details to initiate the specific export.  
 >### See the sequence of [screenshots](https://github.com/NERC-CEH/YMYW/blob/main/Documentation/YourMapsYourWayDoc.pdf)  
 
 Classification with YMYW is a heuristic, iterative process. At each iteration, training objects can be added and/or removed until the classification converges to an optimal result. The training objects are digitised using online image collections as base maps and the user's local knowledge of the area of interest. YMYW uses a supervised machine learning algorithm (Random Forests) that "learns and improves" mainly when its supervisor identifies where it makes mistakes (misclassification). In most cases, and with some practice, YMYW will produce a high-quality land cover/habitat map in a few iterations. 
