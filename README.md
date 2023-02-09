@@ -13,7 +13,7 @@ Morton, R.D., & Schmucki, R. (2023). YMYW - Your Maps Your Way with Google Earth
 - In GEE, you can paste the [JavaScript of YMYW](https://github.com/NERC-CEH/YMYW/blob/main/YMYW.js) into a new file in the GEE editor.
 
 > ### *Your Maps Your Way in 10 steps* 
-> 1. Draw the Area of Interest (AOI) and press the "Run" button.
+> 1. Draw the Area of Interest (AOI), name the newly create geometry 'aoi', and press the "Run" button. 
 > 2. Select the collection of satellite images to be classified (Sentinel-2 or Landsat).
 > 3. Define the year and the time periods (dates and months) that capture the land cover changes and phenology in the region of interest.
 > 4. Press the "Show composites" button to visualise the composite images; adjust cloud tolerance and time period as needed.
