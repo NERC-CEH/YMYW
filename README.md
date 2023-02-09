@@ -26,7 +26,7 @@ Morton, R.D., & Schmucki, R. (2023). YMYW - Your Maps Your Way with Google Earth
 
 Classification with YMYW is a heuristic, iterative process. At each iteration, training objects can be added and/or removed until the classification converges to an optimal result. The training objects are digitised using online image collections as base maps and the user's local knowledge of the area of interest. YMYW uses a supervised machine learning algorithm (Random Forests) that "learns and improves" mainly when its supervisor identifies where it makes mistakes (misclassification). In most cases, and with some practice, YMYW will produce a high-quality land cover/habitat map in a few iterations. 
 
-YMYW allows the user to select and define the thematic structure of the classification used for land cover mapping. While this gives freedom to the user, we would also like to emphasise the importance of adopting a consistent and systematic approach when defining land cover classes(e.g., [FAO Land Cover Classification System (LCCS)](https://www.fao.org/land-water/land/land-governance/land-resources-planning-toolbox/category/details/en/c/1036361/)).
+YMYW allows the user to select and define the thematic structure of the classification used for land cover mapping. While this gives freedom to the user, we would also like to emphasise the importance of adopting a consistent and systematic approach when defining land cover classes (e.g., [FAO Land Cover Classification System (LCCS)](https://www.fao.org/land-water/land/land-governance/land-resources-planning-toolbox/category/details/en/c/1036361/)).
 
 
 ## Examples
