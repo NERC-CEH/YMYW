@@ -1,4 +1,5 @@
 # Your Maps Your Way (YMYW)
+[![DOI](https://zenodo.org/badge/590093715.svg)](https://zenodo.org/badge/latestdoi/590093715)
 
 ## Background
 
