@@ -9,6 +9,6 @@ authors:
   orcid: "https://orcid.org/0000-0003-3064-7553"
 title: "YMYW - Your Maps Your Way with Google Earth Engine"
 version: 1.0.0
-doi: TBC
+doi: 10.5281/zenodo.7624622
 date-released: 2023-02-06
-url: TBC
+url: https://github.com/NERC-CEH/YMYW/tree/v1.0.0
