@@ -39,7 +39,7 @@ To illustrate the use of YMYW, we provide two examples of digitised training dat
 > This example (link above) contains the geometries (multipolygons) and parameters used to classify the Sentinel-2 images and create a land cover map for the region (AOI) around Zurich (Switzerland) using 10 land cover classes.
 >
 >
-> [**Example 2. Ulverston & Leven Estuary**](https://github.com/NERC-CEH/YMYW/blob/main/Examples/Ulverston_LevenEstuary_exmple.md)
+> [**Example 2. Ulverston & Leven Estuary**](https://github.com/NERC-CEH/YMYW/blob/main/Examples/Ulverston_LevenEsturary_example.md)
 >
 > This example (link above) contains the geometries (multipolygons) and parameters used to classify the Sentinel-2 images and create a land cover map for the region (AOI) around the Leven Estuary near Ulverston (UK) using 13 land cover classes.
 >
