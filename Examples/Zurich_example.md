@@ -31,9 +31,9 @@ This example (link above) contains the geometries (multipolygons) and parameters
 
 2. Paste the Zurich JavaScript into the GEE editor. 
 
-3. Move the mouse pointer over the code and click on "convert" in the yellow field to convert the data into training polygons for this example. 
+3. Move the mouse pointer over the code and click "convert" in the yellow field to convert the data into training polygons for this example. Use the first convert (i.e. "aoi", "water_lc1", "arable_lc2", ..., "quarry_lc9" and "urban_lc10" can be converted to import records. `convert`).
 
-4. Copy the YMYW JavaScript foun in [YMYW.js](https://github.com/NERC-CEH/YMYW/blob/main/YMYW.js)   
+4. Copy the YMYW JavaScript found in [YMYW.js](https://github.com/NERC-CEH/YMYW/blob/main/YMYW.js)   
 
 5. Paste the YMYW copied JavaScript below the block with the heading **"// ### YMYW Code Below >>>"**  (line 33 in the GEE editor). 
 
@@ -45,7 +45,7 @@ This example (link above) contains the geometries (multipolygons) and parameters
 
 9. Click on "Classify" in the GUI panel to start the Random Forest classifier and classify the AOI (blue square). This may take some time (do not worry if you see the message "Page Unresponsive").     
 
-10. Once the process is complete, the Land Cover legend appears at the bottom right of the screen and the classification is displayed. For large area, rendering can take some time. You can select or deselect the classification from the Layers menu.
+10. Once the process is complete, the Land Cover legend appears at the bottom right of the screen and the classification is displayed. For large areas, rendering can take some time. You can select or deselect the classification from the Layers menu.
 
 11. You can now compute the statistics "Out of bag error" and "Variable importance" for the Random Forest model from GUI menu and examine the output in the console panel.
 
@@ -56,7 +56,7 @@ This example (link above) contains the geometries (multipolygons) and parameters
 14. Click on "Export classification and more" to export the classification map, training and validation data and more to Google Drive or Google Cloud.
 
 15. Navigate to the "Tasks" tab in the top right panel (the tab should now be orange). Click Run and follow the instructions to start the export.
-
+  
       - Export objects
       - layers = polygons (KML) drawn to inform the classification;
       - trainingPoints = points (KML) used to train the Random Forest classifier;
