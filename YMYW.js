@@ -437,10 +437,15 @@ function generatePoints(feature, n, seed, property) {
  * Gets AOI
  */
 function getAOI(layers) {
-    return layers.filter(function (l) {
-        var str = l.get('name');
-        if (str === 'aoi') return l;
-    })[0].getEeObject();
+    try {
+        return layers.filter(function (l) {
+            var str = l.get('name');
+            if (str === 'aoi') return l;
+        })[0].getEeObject();
+    }
+    catch (error) {
+        throw ('Error - Draw a rectangle polygon and name it "aoi" to define the Area of Interest');
+    }
 }
 
 /*
