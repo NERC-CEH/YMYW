@@ -4,7 +4,7 @@
  * of the Land Cover classification in the region of the Leven Estuary, near 
  * Ulverston (UK). The example contains a polygon of the aoi (Area of Interest)
  * (Area of Interest) and training Multipolygons for 12 different land 
- * cover classes. To import, this java script into the Google Earth Engine
+ * cover classes. To import, copy this java script into the Google Earth Engine
  * editor and move the mouse pointer over the code below to highlight
  * the code (yellow) and press "convert" to import the geometry.
  * 
