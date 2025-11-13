@@ -23,11 +23,11 @@
 
 var intervals = '0,3:3,5:5,7:7,9:9,11';
 var baseDate = ee.Date('2020-01-01')
-var MyImageCollection = 'COPERNICUS/S2_SR'
+var MyImageCollection = 'COPERNICUS/S2_SR_HARMONIZED'
 
-/* Chose from four ImageCollection; default = 'COPERNICUS/S2_SR':
-    -  'COPERNICUS/S2'
-    -  'COPERNICUS/S2_SR'
+/* Chose from four ImageCollection; default = 'COPERNICUS/S2_SR_HARMONIZED':
+    -  'COPERNICUS/S2_HARMONIZED'
+    -  'COPERNICUS/S2_SR_HARMONIZED'
     -  'LANDSAT/LC08/C01/T1_TOA'
     -  'LANDSAT/LC08/C01/T1_SR'
 */
