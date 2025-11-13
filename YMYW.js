@@ -1,12 +1,12 @@
 /*
  * Your Maps Your Way (YMYW), a generic land cover  classification. This script allows an interactive classification 
  * of land cover. The user must first specify an area of interest (AOI) and then digitise training chips of different
- * land cover classes. Once the training areas for the each land cover classes are digitised, the user can perform 
+ * land cover classes. Once the training areas for each land cover class are digitised, the user can perform 
  * the classification, training a Random Forest classifier. The result classification is drawn on the screen within
  * the AOI. To revise, refine, delete or add more training chips, then run the classification again.
  * 
  * To define an AOI, use the Geometry Imports tool to create a geometry and name it 'aoi'. Use the drawing tools
- * to draw your AOI. Normally this will be a minimum bounding rectangle.
+ * to draw your AOI. Normally, this will be a minimum bounding rectangle.
  * 
  * To digitise training chips, use the Geometry Imports tool and create a feature. Set the name to the specific
  * land cover name and give the feature a property called"land_class" and assign it a unique integer identifier.
@@ -20,29 +20,31 @@
  * you can validate your classification (Validate classification). The cross-validation uses a set of points drawn 
  * from chips that were not used to train the classifier.
  * 
+ * Update note: 
+ * (13/11/1015) Version 1.1.0 has been updated to account for changes in Sentinel-2 products, now using the Harmonised version.
  * 
  * Authors: Dan Morton & Reto Schmucki
- * Version: 1.0.0
- * Date: 30/01/2023
- * Licence: MIT Licence, Copyright (c) 2023 UK Centre for Ecology & Hydrology
+ * Version: 1.1.0
+ * Date: 13/11/2025
+ * Licence: MIT Licence, Copyright (c) 2025 UK Centre for Ecology & Hydrology
  * 
 */
 
 /* ###########################################
  * SET YOUR PARAMETERS HERE (change defaults)
  * Delete or add space between the "*" and "/" 
- * at the begining of the line below to enable
+ * at the beginning of the line below to enable
  * or disable the parameter setting.
  * ###########################################
 
 * /  // DELETE or ADD space between "*" and "/"
 var intervals = '0,3:3,6:6,9:9,12';
 var baseDate = ee.Date('2021-01-01')
-var MyImageCollection = 'COPERNICUS/S2_SR'
+var MyImageCollection = 'COPERNICUS/S2_SR_HARMONIZED'
 
-/* Chose from four ImageCollection, default = 'COPERNICUS/S2_SR': 
-  'COPERNICUS/S2'
-  'COPERNICUS/S2_SR'
+/* Chose from four ImageCollection, default = 'COPERNICUS/S2_SR_HARMONIZED': 
+  'COPERNICUS/S2_HARMONIZED'
+  'COPERNICUS/S2_SR_HARMONIZED'
   'LANDSAT/LC08/C01/T1_TOA'
   'LANDSAT/LC08/C01/T1_SR'
 */
@@ -60,7 +62,7 @@ if (typeof intervals === 'undefined') {
 if (typeof baseDate === 'undefined') {
     var baseDate = ee.Date(Date.now()).advance(-1, 'year').advance(-1, 'day'); // set start date to last year
 }
-// Create three terrain layers, height, aspect, slope
+// Create three terrain layers: height, aspect, slope
 var srtm = ee.Image("USGS/SRTMGL1_003");
 var height = srtm.select('elevation').toInt16();
 var slope = ee.Terrain.slope(height).toInt16();
@@ -80,8 +82,8 @@ var property = "land_class";
 var epsg = 'epsg:4326';
 var L8TOA = 'LANDSAT/LC08/C01/T1_TOA';
 var L8SR = 'LANDSAT/LC08/C01/T1_SR';
-var S2TOA = 'COPERNICUS/S2';
-var S2SR = 'COPERNICUS/S2_SR';
+var S2TOA = 'COPERNICUS/S2_HARMONIZED';
+var S2SR = 'COPERNICUS/S2_SR_HARMONIZED';
 var median = 'median';
 var mean = 'mean';
 var bb = ['', 'B1', 'B2', 'B3', 'B4', 'B5', 'B6', 'B7', 'B8', 'B9', 'B10', 'B11', 'B12'];
